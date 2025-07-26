@@ -39,17 +39,21 @@ ul {
 }
 
 /* header */
-
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
 .span-main {
   color: #2e2f42;
 }
 
 header .container {
+  width: 1158px;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
-  padding: 24px 0;
+  /* padding: 24px 0; */
+  padding: 0 15px;
 }
 nav {
   display: flex;
@@ -66,7 +70,8 @@ nav {
   letter-spacing: 0.03em;
   color: #4d5ae5;
   text-transform: uppercase;
-  padding-right: 76px;
+  /* padding-right: 76px; */
+  margin-right: 76px;
 }
 .navigation-list {
   display: flex;
@@ -74,7 +79,9 @@ nav {
   flex-wrap: wrap;
   gap: 40px;
 }
-
+.navigation-list-item {
+  padding: 24px 0;
+}
 .navigation {
   font-weight: 500;
   font-size: 16px;
@@ -116,6 +123,9 @@ nav {
 h1 {
   text-align: center;
 }
+.main-banner {
+  padding: 188px 0;
+}
 .main-banner .container {
   height: 600px;
 }
@@ -127,7 +137,7 @@ h1 {
   letter-spacing: 0.02em;
   color: #ffffff;
   display: flex;
-  width: 496px;
+  max-width: 496px;
   padding-top: 188px;
   padding-bottom: 48px;
   padding: auto;
@@ -148,8 +158,10 @@ h1 {
   color: #ffffff;
   text-align: center;
   cursor: pointer;
-  display: flex;
-  width: 169px;
+  /* display: flex; */
+  display: block;
+  min-width: 169px;
+  border: none;
   height: 56px;
   padding: auto;
   margin: auto;
@@ -164,8 +176,11 @@ h1 {
 }
 
 /* work banner */
+.work {
+  padding: 120px 0;
+}
 
-.work-banner {
+.visually-hidden {
   display: none;
 }
 
@@ -175,7 +190,7 @@ h1 {
   gap: 24px;
 }
 .work--list-item {
-  width: calc(100% - 72px) / 4;
+  width: calc((100% - 72px) / 4);
 }
 .container .work-list {
   margin: 120px 0;
@@ -187,6 +202,7 @@ h1 {
   letter-spacing: 0.02em;
   color: #2e2f42;
   display: flex;
+  margin-bottom: 8px;
   align-items: flex-start;
   justify-content: flex-start;
   flex-direction: column;
@@ -312,6 +328,10 @@ footer .container .logo {
 }
 a {
   text-decoration: none;
+}
+footer a {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-text {
   color: #f4f4fd;
