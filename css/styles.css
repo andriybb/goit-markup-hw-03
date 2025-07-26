@@ -342,9 +342,8 @@ h1 {
 }
 /* footer */
 
-footer {
+.page-footer {
   background-color: #2e2f42;
-  letter-spacing: 0.02em;
   padding: 100px 0;
 }
 footer .container {
@@ -355,15 +354,8 @@ footer .container {
   margin-left: 156px;
   padding: 0;
 }
-footer .container .logo {
-  display: flex;
-  align-self: flex-start;
-}
-a {
-  text-decoration: none;
-}
 
-.footer-logo {
+.logo-footer {
   display: inline-block;
   margin-bottom: 16px;
   font-family: "Raleway", sans-serif;
@@ -373,14 +365,16 @@ a {
   letter-spacing: 0.03em;
   color: #4d5ae5;
   text-transform: uppercase;
-  /* padding-right: 76px; */
   margin-right: 76px;
 }
 .footer-text {
   color: #f4f4fd;
-  padding-top: 16px;
+  width: 264px;
 }
 
 .span-footer {
   color: #f4f4fd;
+}
+a {
+  text-decoration: none;
 }
