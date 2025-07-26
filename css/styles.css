@@ -347,9 +347,10 @@ h1 {
   padding: 100px 0;
 }
 footer .container {
-  display: flex;
+  /* display: flex;
+  flex-direction: column; */
   width: 264px;
-  flex-direction: column;
+
   margin: auto;
   margin-left: 156px;
   padding: 0;
