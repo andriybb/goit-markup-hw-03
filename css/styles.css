@@ -42,10 +42,14 @@ ul {
 .header {
   border-bottom: 1px solid #e7e9fc;
 }
+.navigation-list-item {
+  padding: 24px 0;
+}
 .span-main {
   color: #2e2f42;
 }
-
+.navigation-main {
+}
 header .container {
   width: 1158px;
   display: flex;
@@ -181,7 +185,16 @@ h1 {
 }
 
 .visually-hidden {
-  display: none;
+  /* display: none; */
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 .work-list {
@@ -232,6 +245,7 @@ h1 {
 .our-team {
   background-color: #f4f4fd;
   letter-spacing: 0.02em;
+  padding: 120px 0;
 }
 .teammates {
   font-weight: 500;
@@ -242,6 +256,7 @@ h1 {
   color: #2e2f42;
   padding: 120px 0 72px 0;
   text-align: center;
+  margin-bottom: 72px;
 }
 .team-list {
   display: flex;
@@ -266,6 +281,10 @@ h1 {
   width: 264px;
   height: 380px;
 }
+.member-name {
+  padding: 32px 0;
+}
+
 .team-member {
   font-weight: 500;
   font-size: 20px;
@@ -274,12 +293,16 @@ h1 {
   color: #2e2f42;
   padding: 32px 0px 8px 0px;
   display: flex;
+  text-align: center;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  gap: 8px;
-}
 
+  margin-bottom: 8px;
+}
+.our-work .member {
+  text-align: center;
+}
 /* portfolio */
 
 .portfolio {
@@ -329,7 +352,7 @@ footer .container .logo {
 a {
   text-decoration: none;
 }
-footer a {
+footer .ontainer .logo {
   display: inline-block;
   margin-bottom: 16px;
 }
