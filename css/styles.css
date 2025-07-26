@@ -185,17 +185,17 @@ h1 {
   padding: 120px 0;
 }
 
-.hide .visually-hidden {
-  /* display: none; */
+.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
-  padding: 0;
   margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
   border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .work-list {
@@ -362,7 +362,7 @@ footer .container .logo {
 a {
   text-decoration: none;
 }
-footer .container .logo {
+.footer .container .logo {
   display: inline-block;
   margin-bottom: 16px;
 }
