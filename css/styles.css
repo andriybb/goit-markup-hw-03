@@ -285,7 +285,7 @@ h1 {
   gap: 48px 24px;
 }
 .portfolio-list-item {
-  width: calc(100% - 72px) / 3;
+  width: calc((100% - 72px) / 3);
   max-width: 100%;
 }
 .our-work {
