@@ -207,7 +207,7 @@ h1 {
 .our-team {
   background-color: #f4f4fd;
   letter-spacing: 0.02em;
-  padding: 88px 0;
+  padding: 120px 0;
 }
 .teammates {
   font-weight: 500;
@@ -223,9 +223,7 @@ h1 {
   display: flex;
   gap: 24px;
 }
-.team-container {
-  padding: 32px 0;
-}
+
 .team-members {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
@@ -234,8 +232,7 @@ h1 {
   width: calc((1128px - 72px) / 4);
 }
 .member-name {
-  margin-bottom: 32px;
-  margin-top: 32px;
+  padding: 32px 0;
 }
 .team-member {
   font-weight: 500;
